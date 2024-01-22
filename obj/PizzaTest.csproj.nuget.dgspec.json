@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\crise\\source\\repos\\Assignment4_CriselPizzaApplication\\PizzaTest\\PizzaTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\crise\\source\\repos\\Assignment4_CriselPizzaApplication\\CriselPizzaApplication\\CriselPizzaApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\crise\\source\\repos\\Assignment4_CriselPizzaApplication\\CriselPizzaApplication\\CriselPizzaApplication.csproj",
+        "projectName": "CriselPizzaApplication",
+        "projectPath": "C:\\Users\\crise\\source\\repos\\Assignment4_CriselPizzaApplication\\CriselPizzaApplication\\CriselPizzaApplication.csproj",
+        "packagesPath": "C:\\Users\\crise\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crise\\source\\repos\\Assignment4_CriselPizzaApplication\\CriselPizzaApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\crise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\crise\\source\\repos\\Assignment4_CriselPizzaApplication\\PizzaTest\\PizzaTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\crise\\source\\repos\\Assignment4_CriselPizzaApplication\\PizzaTest\\PizzaTest.csproj",
+        "projectName": "PizzaTest",
+        "projectPath": "C:\\Users\\crise\\source\\repos\\Assignment4_CriselPizzaApplication\\PizzaTest\\PizzaTest.csproj",
+        "packagesPath": "C:\\Users\\crise\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crise\\source\\repos\\Assignment4_CriselPizzaApplication\\PizzaTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\crise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\crise\\source\\repos\\Assignment4_CriselPizzaApplication\\CriselPizzaApplication\\CriselPizzaApplication.csproj": {
+                "projectPath": "C:\\Users\\crise\\source\\repos\\Assignment4_CriselPizzaApplication\\CriselPizzaApplication\\CriselPizzaApplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
